@@ -1,0 +1,133 @@
+{# permite dejar un comentario  #}
+{% extends "plantillaBase.html" %}
+{% block tituloPestana %} Catalogo {% endblock %}
+
+{% block contenido %}    
+<nav class="navbar navbar-expand-lg " data-bs-theme="dark" style="background-color: rgb(27, 56, 110);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+     <img src="img/adop-removebg-preview.png" alt="No disponible" width="80px" height="50px">
+        Fundación Adopt me
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="principal.html">Inicio</a>  
+              </li>
+
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="registro.html">Registro</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="catalogo.html">Catálogo</a> 
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Acerca de
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Perfil.html">Mi cuenta</a></li> <!--FALTA rellenar info-->  
+              <li><a class="dropdown-item" href="animalitos.html">Animalitos en adopcion</a></li> <!-- FALTAlink rellenar info--> 
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Ayuda</a></li> <!--FALTA link rellenar info--> 
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="¿Que estas buscando?" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+          <button class="global-header-menu_icon global-header-menu_icon-cart" type="submit"><img src="img/images-removebg-preview.png" alt="Su carrito" width="14px" height="14px"></button>
+        </form>
+      </div>
+
+      
+    </div> 
+  </nav>  
+
+
+  <div class="container-fluid">
+    <div class="row mt-3">
+      <div class="col-12 col-md-4 mb-6">
+        <div class="card" >
+          <img src="img/M_cuerdaxs1875.png" class="card-img-top" height="300px" width: 350px; alt="...">
+          <div class="card-body">
+            <h5 class="card-title">MARCA: MAMMUTH</h5>
+            <p class="card-text">Juguete de cuerda con 3 nudos</p>
+            <p class="card-text">PRECIO: $ 9.990</p>
+            <p class="card-text">STOCK: 24 unidades </p>
+            <a href="Carrito1.html" class="btn btn-outline-primary">AGREGAR AL CARRO</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-6" >
+        <div class="card border-success">
+          <img src="img/camaa.jpeg" class="card-img-top" height="300px" width: 350px; alt="...">
+          <div class="card-body">
+            <h5 class="card-title">MARCA: HAGEN</h5>
+            <p class="card-text">Cama acolchada para gatos</p>
+            <p class="card-text">PRECIO: $15.000</p>
+            <p class="card-text">STOCK: 3 unidades </p>
+            <a1 href="#" class="btn btn-primary">AGREGAR AL CARRO</a1>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-6">
+        <div class="card border-success">
+          <img src="img/X_supernova5331.png" class="card-img-top" height="300px" width: 350px; alt="...">
+          <div class="card-body">
+            <h5 class="card-title">MARCA: FERPLAST</h5>
+            <p class="card-text">Plato de comida anti-hormigas</p>
+            <p class="card-text">PRECIO: $2.890</p>
+            <p class="card-text">STOCK: 5 unidades</p>
+            <a1 href="#" class="btn btn-primary">AGREGAR AL CARRO</a1>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card border-success">
+          <img src="img/M_azimut_12618.png" class="card-img-top" height="300px" width: 350px; alt="...">
+          <div class="card-body">
+            <h5 class="card-title">MARCA: AZIMUT</h5>
+            <p class="card-text">DESCRIPCION: Dispensador de agua/alimento para mascota</p>
+            <p class="card-text">PRECIO: $9.990</p>
+            <p class="card-text">STOCK: 4 unidades</p>
+            <a1 href="#" class="btn btn-primary">AGREGAR AL CARRO</a1>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card border-success">
+          <img src="img/M_cc_adulto_carne5501.png" class="card-img-top" height="300px" width: 350px; alt="...">
+          <div class="card-body">
+            <h5 class="card-title">MARCA: CAT SHOW</h5>
+            <p class="card-text">DESCRIPCION: Alimento gato adulto sabor carne</p>
+            <p class="card-text">PRECIO: $5.190</p>
+            <p class="card-text">STOCK: 7 unidades</p>
+            <a1 href="#" class="btn btn-primary">AGREGAR AL CARRO</a1>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card border-success cb6"  >
+          <img src="img/collar.png" class="card-img-top" height="300px" width: 350px; alt="...">
+          <div class="card-body">
+            <h5 class="card-title">MARCA: COASTAL</h5>
+            <p class="card-text">DESCRIPCION: Collar doble cara</p>
+            <p class="card-text">PRECIO: $9.990</p>
+            <p class="card-text">STOCK: 8 unidades</p>
+            <a1 href="#" class="btn btn-primary">AGREGAR AL CARRO </a1>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+  </div>
+
+    
+{% endblock %}
